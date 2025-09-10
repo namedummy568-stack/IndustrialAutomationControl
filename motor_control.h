@@ -8,6 +8,7 @@ public:
     double calculatePID(double setpoint, double processVariable);
     void setMotorSpeed(double speed);
     void motorBrake();
+    void optimizeCommutationSequence(); // New function for optimized commutation
 
 private:
     double Kp, Ki, Kd;
